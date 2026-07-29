@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Products | The Belvane Co</title>
+
+<style>
+
+body{
+font-family:Arial,sans-serif;
+margin:0;
+background:#f4f4f4;
+}
+
+header{
+background:#111;
+color:white;
+padding:20px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+nav a{
+color:white;
+margin-left:20px;
+text-decoration:none;
+}
+
+.container{
+padding:50px;
+}
+
+.products{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:30px;
+}
+
+.product{
+background:white;
+border-radius:10px;
+overflow:hidden;
+box-shadow:0 5px 15px rgba(0,0,0,.15);
+text-align:center;
+}
+
+.product img{
+width:100%;
+height:250px;
+object-fit:cover;
+}
+
+.product h3{
+margin:15px 0;
+}
+
+.price{
+font-size:22px;
+color:red;
+font-weight:bold;
+}
+
+button{
+background:#111;
+color:white;
+border:none;
+padding:12px 25px;
+margin:20px;
+cursor:pointer;
+border-radius:5px;
+}
+
+button:hover{
+background:red;
+}
+
+footer{
+background:#111;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:50px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<h2>The Belvane Co</h2>
+
+<nav>
+
+<a href="index.html">Home</a>
+<a href="products.html">Products</a>
+
+</nav>
+
+</header>
+
+<div class="container">
+
+<h1 style="text-align:center;margin-bottom:40px;">Hot Wheels Collection</h1>
+
+<div class="products">
+
+<div class="product">
+
+<img src="https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=700&q=80">
+
+<h3>Hot Wheels Nissan GT-R</h3>
+
+<p class="price">$8.99</p>
+
+<button>Add to Cart</button>
+
+</div>
+
+<div class="product">
+
+<img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=700&q=80">
+
+<h3>Hot Wheels Lamborghini</h3>
+
+<p class="price">$10.99</p>
+
+<button>Add to Cart</button>
+
+</div>
+
+<div class="product">
+
+<img src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=700&q=80">
+
+<h3>Hot Wheels Porsche 911</h3>
+
+<p class="price">$12.99</p>
+
+<button>Add to Cart</button>
+
+</div>
+
+<div class="product">
+
+<img src="https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=700&q=80">
+
+<h3>Hot Wheels Ford Mustang</h3>
+
+<p class="price">$9.99</p>
+
+<button>Add to Cart</button>
+
+</div>
+
+</div>
+
+</div>
+
+<footer>
+
+© 2026 The Belvane Co
+
+</footer>
+
+</body>
+</html>
